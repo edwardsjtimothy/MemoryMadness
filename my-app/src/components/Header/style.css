@@ -1,0 +1,13 @@
+.jumbotron-back {
+    background: url("../assets/images/jumbo-back.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 200px;
+}
+
+.buffer {
+    padding-top: 40px;
+}
