@@ -2,6 +2,6 @@
     text-align: center;
 }
 
-/* .test {
-    color: blue;
-} */
+.test {
+    border: 1px solid black;
+}

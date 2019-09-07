@@ -4,8 +4,8 @@ import "./style.css"
 function Gameboard() {
     return (
 
-        <div className="container">
-            <div className="row">
+        <div className="container test">
+            <div className="row test ">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 center">
                     <h1 className="test">The game</h1>
                 </div>
