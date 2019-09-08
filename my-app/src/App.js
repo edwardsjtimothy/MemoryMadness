@@ -1,15 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
 import Gameboard from "./components/Gameboard";
-
-const style = {
-  backgroundImage: "url('./assets/images/memphis-mini-dark.png')",
-}
+import "./App.css"
 
 function App() {
   return (
 
-    <div style={style}>
+    <div className="background">
       <Header />
       <Gameboard />
     </div>
