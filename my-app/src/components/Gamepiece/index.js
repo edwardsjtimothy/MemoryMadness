@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "./gamepiece.css";
 
-function Gamepiece() {
+function Gamepiece(props) {
 return (
-    <div>
-            
+    <div className="gamepiece">
+            <img src={props.image} data-id={props.id} />
     </div>
     )
 }
