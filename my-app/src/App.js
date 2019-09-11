@@ -12,20 +12,7 @@ function App() {
 
     <div className="background">
       <Header />
-      <Gameboard>
-        <Gamepiece id={image[0].id } image={image[0].image}/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-        <Gamepiece/>
-      </Gameboard>
+      <Gameboard/>
     </div>
 
   );
