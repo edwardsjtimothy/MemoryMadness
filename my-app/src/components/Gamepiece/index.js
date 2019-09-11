@@ -1,13 +1,14 @@
 import React from 'react';
 import "./gamepiece.css";
-import image from "../../images.json"
+
+ 
 
 function Gamepiece(props) {
     console.log(props);
-return (
+    return (
     <div className="gamepiece">
         <div className="img-container">
-            <img className="game-img" alt="" src={props.image} data-id={props.id} />
+            <img className="game-img" alt="" src={props.image} data-id={props.id} onClick={this.imgClicked} />
         </div>
     </div>
     )
