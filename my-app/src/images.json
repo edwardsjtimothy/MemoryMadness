@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "image": "./components/assets/images/benches.jpg"
+        "image": "https://picsum.photos/id/560/200/200"
     },
     {
         "id": 2,
-        "image": "./components/assets/images/da-beach.jpg"
+        "image": "https://picsum.photos/id/439/200/200"
     },
     {
         "id": 3,
-        "image": "./components/assets/images/hot-air.jpg"
+        "image": "https://picsum.photos/id/928/200/200"
     },
     {
         "id": 4,
-        "image": "./components/assets/images/lonely-mountain.jpg"
+        "image": "https://picsum.photos/id/603/200/200"
     },
     {
         "id": 5,
-        "image": "./components/assets/images/neolithic.jpg"
+        "image": "https://picsum.photos/id/36/200/200"
     },
     {
         "id": 6,
-        "image": "./components/assets/images/night-road.jpg"
+        "image": "https://picsum.photos/id/380/200/200"
     },
     {
         "id": 7,
-        "image": "./components/assets/images/pineapple.jpg"
+        "image": "https://picsum.photos/id/599/200/200"
     },
     {
         "id": 8,
-        "image": "./components/assets/images/station.jpg"
+        "image": "https://picsum.photos/id/695/200/200"
     },
     {
         "id": 9,
-        "image": "./components/assets/images/steel-wool.jpg"
+        "image": "https://picsum.photos/id/444/200/200"
     },
     {
         "id": 10,
-        "image": "./components/assets/images/tools.jpg"
+        "image": "https://picsum.photos/id/315/200/200"
     },
     {
         "id": 11,
-        "image": "./components/assets/images/water-town.jpg"
+        "image": "https://picsum.photos/id/46/200/200"
     },
     {
         "id": 12,
-        "image": "./components/assets/images/white-town.jpg"
+        "image": "https://picsum.photos/id/756/200/200"
     }
 ]

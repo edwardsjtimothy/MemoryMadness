@@ -6,4 +6,5 @@
     background-size: cover;
     background-image: url("./components/assets/images/memphis-mini-dark.png");
     color: white;
+    overflow-y: auto;
 }
