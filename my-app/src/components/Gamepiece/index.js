@@ -3,12 +3,11 @@ import "./gamepiece.css";
 
  
 
-function Gamepiece(props) {
-    console.log(props);
+function Gamepiece(props) {;
     return (
-    <div className="gamepiece">
+    <div className="gamepiece"onClick={()=>props.imgClicked(props.id)}>
         <div className="img-container">
-            <img className="game-img" alt="" src={props.image} data-id={props.id} onClick={this.imgClicked} />
+            <img className="game-img" alt="" src={props.image} data-id={props.id} />
         </div>
     </div>
     )
@@ -16,4 +15,3 @@ function Gamepiece(props) {
 
 export default Gamepiece;
 
-// my-app\src\components\assets\images\benches.jpg
