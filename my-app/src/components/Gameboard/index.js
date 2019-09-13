@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import "./gameboard.css"
 import Gamepiece from "../Gamepiece"
-import Scoreboard from "../Scoreboard"
 import image from "../../images.json"
 
 class Gameboard extends Component {
