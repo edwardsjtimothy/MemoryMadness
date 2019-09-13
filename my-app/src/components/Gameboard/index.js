@@ -34,7 +34,7 @@ class Gameboard extends Component {
             let newLoses = this.state.loses + 1;
             this.setState({ clickedArr: [], loses: newLoses });
             console.log(dupes);
-        } else if (newClick.length === 2) {
+        } else if (newClick.length === 12) {
             let newWin = this.state.wins + 1;
             this.setState({ clickedArr: [], wins: newWin });
         }
