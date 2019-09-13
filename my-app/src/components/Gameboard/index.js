@@ -11,37 +11,40 @@ class Gameboard extends Component {
         loses: 0
     }
 
-    // findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) !== index)
-
+//click function for images
     imgClicked = (id) => {
         let newClick = this.state.clickedArr;
         this.setState({ clickedArr: [...newClick, id] });
         console.log(this.state);
-
-        //push id of clicked piece to array
-
-        //searches array for repeated ids
     }
 
+//checking for victory conditions when state is updated
     componentDidUpdate() {
+
+        //storing state array in variable
         let newClick = this.state.clickedArr;
 
+        //function to sort though array and identify any any duplicate ids
         let findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) !== index)
-        let dupes = findDuplicates(newClick); // All duplicates
-        console.log(dupes);
 
+        //storing out put of findDuplicates running over newClick into new array 
+        let dupes = findDuplicates(newClick);
+
+        // if dupes exists, there is a duplicate and player loses. Loses increments and message displays
         if (dupes[0]) {
             let newLoses = this.state.loses + 1;
+            alert(`You Lost! You clicked ${newClick.length - 1} unique photos. Try again!`)
             this.setState({ clickedArr: [], loses: newLoses });
-            console.log(dupes);
         } else if (newClick.length === 12) {
             let newWin = this.state.wins + 1;
+            alert(`You Won! Your memory is bananas.`)
             this.setState({ clickedArr: [], wins: newWin });
         }
 
     }
 
     render() {
+        //function to shuffle photos on click 
         function shuffle(array) {
             let currentIndex = array.length, temporaryValue, randomIndex;
 
