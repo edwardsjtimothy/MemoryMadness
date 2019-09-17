@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MemoryMadness/static/css/main.8aef1152.chunk.css",
+    "main.js": "/MemoryMadness/static/js/main.e13bd8e9.chunk.js",
+    "main.js.map": "/MemoryMadness/static/js/main.e13bd8e9.chunk.js.map",
+    "runtime~main.js": "/MemoryMadness/static/js/runtime~main.70b95927.js",
+    "runtime~main.js.map": "/MemoryMadness/static/js/runtime~main.70b95927.js.map",
+    "static/js/2.18a842fd.chunk.js": "/MemoryMadness/static/js/2.18a842fd.chunk.js",
+    "static/js/2.18a842fd.chunk.js.map": "/MemoryMadness/static/js/2.18a842fd.chunk.js.map",
+    "index.html": "/MemoryMadness/index.html",
+    "precache-manifest.9f0aee48dce1f2c5baebc926d998c279.js": "/MemoryMadness/precache-manifest.9f0aee48dce1f2c5baebc926d998c279.js",
+    "service-worker.js": "/MemoryMadness/service-worker.js",
+    "static/css/main.8aef1152.chunk.css.map": "/MemoryMadness/static/css/main.8aef1152.chunk.css.map",
+    "static/media/header.css": "/MemoryMadness/static/media/jumbo-back.4433aaa7.jpg",
+    "static/media/App.css": "/MemoryMadness/static/media/memphis-mini-dark.b9da2244.png"
+  }
+}
